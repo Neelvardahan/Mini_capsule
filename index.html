@@ -1,12 +1,88 @@
-<!-- index.html -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Mini Capsule</title>
+  <meta charset="UTF-8">
+  <title>Mini Capsule - Home</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #1e90ff;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-around;
+      padding: 30px;
+      flex-wrap: wrap;
+    }
+
+    .column {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 20px;
+      width: 30%;
+      min-width: 250px;
+      margin: 10px;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+
+    h2 {
+      color: #1e90ff;
+    }
+  </style>
 </head>
 <body>
-  <h1>Welcome to Mini Capsule</h1>
-  <p>A smart and affordable medical recommendation platform.</p>
-  <p>Backend is under construction. Stay tuned!</p>
+
+  <header>
+    <h1>Welcome to Mini Capsule</h1>
+    <p>Affordable medical recommendations and student-based virtual treatment</p>
+  </header>
+
+  <div class="container">
+    <div class="column">
+      <h2>About</h2>
+      <p>Mini Capsule suggests low-cost alternative medicines and allows virtual consultations by MBBS students.</p>
+    </div>
+
+    <div class="column">
+      <h2>Features</h2>
+      <ul>
+        <li>Alternative medicine recommendations</li>
+        <li>Low-cost doctor consultation (₹10)</li>
+        <li>Internal swelling and first-aid guidance</li>
+      </ul>
+    </div>
+
+    <div class="column">
+      <h2>Contact</h2>
+      <p>Email: support@minicapsule.com</p>
+      <p>Follow us on Instagram @mini.capsule</p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Mini Capsule. All rights reserved.
+  </footer>
+
 </body>
 </html>
+
